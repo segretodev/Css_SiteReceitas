@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body {
+background-color: 	#cadeef;
+}
+
+header {
+    background-color:#9bd4e4;
+    border-bottom: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 2em;
+    color: 	#0784b5
+}
+
+main {
+    padding: 100px;
+    text-align: left;
+    font-family: 'Tilt Warp', cursive;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  }
+
+  img{
+    height: 350px;
+    width: 550px;
+    border: none;
+    border-radius: 15px;
+  }
+ 
+ 
+  .botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  .MudarTema {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #0c0c0c;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-weight: 100;
+    padding: 15px;
+    background-color:#9bd4e4;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
